@@ -1,6 +1,6 @@
 # RenderDemo
 
-基于 Swift + OpenGL ES 的 iOS 渲染演示项目
+基于OpenGL ES 的跨平台 iOS/Android 渲染演示项目
 
 ## 功能特性
 
