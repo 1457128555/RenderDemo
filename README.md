@@ -29,7 +29,7 @@
 
 ## 快速开始
 1. 克隆仓库：
-   git clone https://gitlab.com/yourname/gles-render-demo.git
+   git clone git@github.com:1457128555/RenderDemo.git
 
 2. 打开工程：
     open RenderDemo.xcodeproj
@@ -38,15 +38,12 @@
 
 # 🎥 渲染效果演示
 
-<table>
-  <tr>
-    <td align="center">
-      <b>iOS 演示</b><br>
-      <img src="Docs/Screenshots/IOSRenderDemo.gif" alt="iOS演示" height="400">
-    </td>◊
-    <td align="center">
-      <b>Android 演示</b><br>
-      <img src="Docs/Screenshots/AndroidRenderDemo.gif" alt="Android演示" height="400">
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+## 📱 iOS 演示
+<img src="Docs/Screenshots/IOSRenderDemo.gif" alt="iOS演示" width="350">
+
+## 🤖 Android 演示  
+<img src="Docs/Screenshots/AndroidRenderDemo.gif" alt="Android演示" width="350">
+
+</div>
