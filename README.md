@@ -1,6 +1,6 @@
 # RenderDemo
 
-基于OpenGL ES 的跨平台 iOS/Android 渲染演示项目
+基于OpenGL ES的跨平台渲染引擎
 
 ## 功能特性
 
