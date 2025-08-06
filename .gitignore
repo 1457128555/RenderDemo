@@ -1,0 +1,54 @@
+# ========== Xcode 自动生成文件 ==========
+*.xcuserstate
+*.xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcscheme
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+DerivedData/
+*.xcworkspace
+
+# ========== macOS 系统文件 ==========
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ========== Android Studio/Gradle ==========
+.idea/
+*.iml
+.gradle/
+build/
+local.properties
+.cxx/
+.externalNativeBuild/
+*.apk
+*.ap_
+*.keystore
+
+# ========== CocoaPods ==========
+Pods/
+Podfile.lock
+
+# ========== VS Code ==========
+.vscode/
+
+# ========== fastlane ==========
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# ========== Carthage ==========
+Carthage/
+
+# ========== 临时文件 ==========
+*.log
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
