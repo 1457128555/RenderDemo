@@ -42,11 +42,11 @@
   <tr>
     <td align="center">
       <b>iOS 演示</b><br>
-      <img src="Docs/Screenshots/IOSRenderDemo.gif" alt="iOS演示" height="400">
+      <img src="Docs/Screenshots/IOSRenderDemo.gif" alt="iOS演示" height="400" width="200">
     </td>
     <td align="center">
       <b>Android 演示</b><br>
-      <img src="Docs/Screenshots/AndroidRenderDemo.gif" alt="Android演示" height="400">
+      <img src="Docs/Screenshots/AndroidRenderDemo.gif" alt="Android演示" height="400" width="200">
     </td>
   </tr>
 </table>
