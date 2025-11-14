@@ -63,21 +63,10 @@
 
 ## 🎥 渲染效果演示
 
-<table>
-  <tr>
-    <td align="center">
-      <b>iOS 演示</b><br>
-      <a href="Docs/Screenshots/IOSRenderDemo.mp4">
-        <img src="Docs/Screenshots/IOSRenderDemo.mp4" alt="iOS演示" width="200">
-      </a>
-    </td>
-    <td align="center">
-      <b>Android 演示</b><br>
-      <a href="Docs/Screenshots/AndroidRenderDemo.mp4">
-        <img src="Docs/Screenshots/AndroidRenderDemo.mp4" alt="Android演示" width="200">
-      </a>
-    </td>
-  </tr>
-</table>
+### iOS 演示
 
-> 💡 **提示：** 点击视频链接可在GitHub上查看完整演示（GitHub会自动显示视频播放器）
+https://github.com/1457128555/RenderDemo/raw/main/RenderDemo/Docs/Screenshots/IOSRenderDemo.mp4
+
+### Android 演示
+
+https://github.com/1457128555/RenderDemo/raw/main/RenderDemo/Docs/Screenshots/AndroidRenderDemo.mp4
