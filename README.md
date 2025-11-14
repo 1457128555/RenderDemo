@@ -37,7 +37,6 @@
 3. 连接设备后运行（Command+R）
 
 ## 整体框架
-
 ```
 ┌─────────────────────────────────────┐
 │   Native UI Layer (平台特定)        │
@@ -57,16 +56,22 @@
 │   - 图像特效处理                    │
 │   - 资源管理                        │
 └─────────────────────────────────────┘
+
+系统自带上下文创建和管理：
+  Android-EGL | IOS-EAGL
 ```
 
-**系统自带上下文创建和管理：** Android-EGL | iOS-EAGL
+# 🎥 渲染效果演示
 
-## 🎥 渲染效果演示
-
-### iOS 演示
-
-https://github.com/1457128555/RenderDemo/raw/main/RenderDemo/Docs/Screenshots/IOSRenderDemo.mp4
-
-### Android 演示
-
-https://github.com/1457128555/RenderDemo/raw/main/RenderDemo/Docs/Screenshots/AndroidRenderDemo.mp4
+<table>
+  <tr>
+    <td align="center">
+      <b>iOS 演示</b><br>
+      <img src="Docs/Screenshots/IOSRenderDemo.gif" alt="iOS演示" height="400" width="200">
+    </td>
+    <td align="center">
+      <b>Android 演示</b><br>
+      <img src="Docs/Screenshots/AndroidRenderDemo.gif" alt="Android演示" height="400" width="200">
+    </td>
+  </tr>
+</table>
