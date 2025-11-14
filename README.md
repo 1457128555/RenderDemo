@@ -33,8 +33,33 @@
 
 2. 打开工程：
     open RenderDemo.xcodeproj
-
+<!--  -->
 3. 连接设备后运行（Command+R）
+
+## 整体框架
+```mermaid
+┌─────────────────────────────────────┐
+│   Native UI Layer (平台特定)        │
+│   - Android: Java/Kotlin + JNI      │
+│   - iOS: Swift/Objective-C + C++    │
+└─────────────────────────────────────┘
+              ↕ JNI/Bridge
+┌─────────────────────────────────────┐
+│   C++ Wrapper Layer (平台适配层)    │
+│   - JNI接口 (Android)               │
+│   - Objective-C++桥接 (iOS)         │
+└─────────────────────────────────────┘
+              ↕ C++ API
+┌─────────────────────────────────────┐
+│   C++ Core Library (核心渲染库)     │
+│   - OpenGL ES 渲染引擎              │
+│   - 图像特效处理                    │
+│   - 资源管理                        │
+└─────────────────────────────────────┘
+
+系统自带上下文创建和管理：
+  Android-EGL | IOS-EAGL
+```
 
 # 🎥 渲染效果演示
 
@@ -42,11 +67,17 @@
   <tr>
     <td align="center">
       <b>iOS 演示</b><br>
-      <img src="Docs/Screenshots/IOSRenderDemo.gif" alt="iOS演示" height="400" width="200">
+      <video width="200" height="400" controls autoplay loop muted playsinline>
+        <source src="Docs/Screenshots/IOSRenderDemo.mp4" type="video/mp4">
+        您的浏览器不支持视频播放
+      </video>
     </td>
     <td align="center">
       <b>Android 演示</b><br>
-      <img src="Docs/Screenshots/AndroidRenderDemo.gif" alt="Android演示" height="400" width="200">
+      <video width="200" height="400" controls autoplay loop muted playsinline>
+        <source src="Docs/Screenshots/AndroidRenderDemo.mp4" type="video/mp4">
+        您的浏览器不支持视频播放
+      </video>
     </td>
   </tr>
 </table>
