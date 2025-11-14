@@ -37,7 +37,8 @@
 3. 连接设备后运行（Command+R）
 
 ## 整体框架
-```mermaid
+
+```
 ┌─────────────────────────────────────┐
 │   Native UI Layer (平台特定)        │
 │   - Android: Java/Kotlin + JNI      │
@@ -56,28 +57,27 @@
 │   - 图像特效处理                    │
 │   - 资源管理                        │
 └─────────────────────────────────────┘
-
-系统自带上下文创建和管理：
-  Android-EGL | IOS-EAGL
 ```
 
-# 🎥 渲染效果演示
+**系统自带上下文创建和管理：** Android-EGL | iOS-EAGL
+
+## 🎥 渲染效果演示
 
 <table>
   <tr>
     <td align="center">
       <b>iOS 演示</b><br>
-      <video width="200" height="400" controls autoplay loop muted playsinline>
-        <source src="Docs/Screenshots/IOSRenderDemo.mp4" type="video/mp4">
-        您的浏览器不支持视频播放
-      </video>
+      <a href="Docs/Screenshots/IOSRenderDemo.mp4">
+        <img src="Docs/Screenshots/IOSRenderDemo.mp4" alt="iOS演示" width="200">
+      </a>
     </td>
     <td align="center">
       <b>Android 演示</b><br>
-      <video width="200" height="400" controls autoplay loop muted playsinline>
-        <source src="Docs/Screenshots/AndroidRenderDemo.mp4" type="video/mp4">
-        您的浏览器不支持视频播放
-      </video>
+      <a href="Docs/Screenshots/AndroidRenderDemo.mp4">
+        <img src="Docs/Screenshots/AndroidRenderDemo.mp4" alt="Android演示" width="200">
+      </a>
     </td>
   </tr>
 </table>
+
+> 💡 **提示：** 点击视频链接可在GitHub上查看完整演示（GitHub会自动显示视频播放器）
